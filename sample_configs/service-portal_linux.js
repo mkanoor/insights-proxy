@@ -4,6 +4,6 @@
 module.exports = {
     routes: {
         '/r/insights/platform/service-portal': { host: 'http://localhost:5000' },
-        '/insights': { host:  'https://access.ci.cloud.paas.upshift.redhat.com' }
+        '/insights': { host:  'PORTAL_BACKEND_MARKER' }
     }
 };
